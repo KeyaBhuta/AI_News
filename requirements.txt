@@ -5,3 +5,4 @@ beautifulsoup4
 pandas
 langchain-community==0.3.25
 numpy==2.2.0
+google-generativeai>=0.3.1
