@@ -10,7 +10,7 @@ The dashboard provides multiple AI-powered tools to dissect any article, includi
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Key Features](#-key-features)
 - [How It Works](#-how-it-works)
@@ -26,7 +26,7 @@ The dashboard provides multiple AI-powered tools to dissect any article, includi
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 -   **Dynamic News Feed:** Fetches the latest news from Google News RSS based on selected countries, categories, or custom search queries.
 -   **Advanced Article Scraping:** Uses Selenium to bypass simple anti-scraping measures and extract the full text content from article URLs.
@@ -41,7 +41,7 @@ The dashboard provides multiple AI-powered tools to dissect any article, includi
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1.  **News Fetching:** The app first pings the Google News RSS feed using the `requests` library to get a list of recent articles based on the user's selection.
 2.  **Article Scraping:** When a user requests an AI analysis (e.g., "Summarize"), the app uses `Selenium` and `webdriver-manager` to launch a headless Chrome browser instance. It navigates to the article's URL and extracts the full body text. This is more robust than simple HTTP requests.
@@ -50,7 +50,7 @@ The dashboard provides multiple AI-powered tools to dissect any article, includi
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 -   **Language:** Python 3.9+
 -   **Web Framework:** [Streamlit](https://streamlit.io/)
@@ -63,7 +63,7 @@ The dashboard provides multiple AI-powered tools to dissect any article, includi
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing.
 
@@ -111,7 +111,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ---
 
-## 🖥️ Usage
+## Usage
 
 Once the installation is complete, you can run the Streamlit application with a single command:
 
