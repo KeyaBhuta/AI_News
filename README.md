@@ -1,4 +1,4 @@
-# AI News Intelligence Dashboard 📰✨
+# AI News Intelligence Dashboard 
 
 This is a powerful, interactive web application built with Streamlit and powered by the Google Gemini API. It serves as an intelligent news dashboard that allows users to fetch, read, summarize, and analyze news articles from around the world in real-time.
 
